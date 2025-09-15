@@ -51,8 +51,10 @@ Once processing completes, the dashboard displays each criterion’s status.  In
 ### Full Analysis Results
 
 ![Analysis results where all seven criteria are passed and a gauge reads 7/7](result 2.jpg)
-
+![Extracted most important page from the report](extracted_page_ elisa_2023.jpg)
 A perfect score occurs when the uploaded report meets all of Graham’s defensive investor criteria.  The gauge turns fully green and the recommendation notes that the company is likely a sustainable investment.
+
+
 
 ### Manual Calculator Input
 
