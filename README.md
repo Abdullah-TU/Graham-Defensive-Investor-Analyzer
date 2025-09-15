@@ -16,9 +16,6 @@
   <img src="first-overview.jpg" alt="Overview" width="900">
 </p>
 
-## Overview
-<!-- Your overview text goes here -->
-
 
 ## Overview
 
