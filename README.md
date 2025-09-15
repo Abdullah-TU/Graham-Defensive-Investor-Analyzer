@@ -206,4 +206,8 @@ The analyzer automatically computes these ratios and displays a green “Pass”
 
 This project is provided for educational purposes and does not include a formal license from the original author.  Use it at your own discretion and verify any investment advice independently.
 
+## authors
+1. **Md. Abdullah-Al Mamun**
+2. **Mst. Nazneen Aktar**
+
 
