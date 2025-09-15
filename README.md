@@ -69,12 +69,34 @@ The manual calculator allows users to input financial figures manually (annual s
 ![Manual calculator result showing all criteria passed](Manual_calcualtor_result_2.jpg)
 
 These screenshots demonstrate how the manual calculator presents results—either a mix of pass/fail statuses or a full set of passes depending on the inputs provided.
+ 
+## Architecture and Data Flow
+
+The Graham Analyzer follows a multi‑stage processing pipeline to extract financial information and evaluate investment criteria.  
+![Layer 1](backend_api_layer.jpg)
+![Layer 2](analysis_engine_layer.jpg)
+![Layer 3](data_processing_layer.jpg)
+
+At a high level the workflow is:
+
+1. **PDF upload & company detection** – The FastAPI backend accepts an annual report PDF and detects the company name and reporting year.
+2. **Text extraction** – The `text_extraction.py` module uses `pdfplumber` to extract text and tables from the PDF.
+3. **LLM extraction** – An optional LLM‑powered module (`llm_extractor.py`) analyzes the extracted text to identify balance sheets, income statements and cash‑flow sections and to pick out key financial numbers.
+4. **Rule‑based extraction** – When LLMs are unavailable or to cross‑check results, `rule_based_extractor.py` uses regular expressions and heuristics to pull figures like revenue, current assets/liabilities and EPS.
+5. **Advanced table extraction** – Complex tables are parsed using `advanced_table_extractor.py` which leverages Camelot/Tabula when installed.
+6. **Data integration** – The `data_integrator.py` module merges outputs from the LLM, rule‑based and advanced extractors, resolves conflicts and validates currency and scale.
+7. **Web scraping fallback** – If certain metrics (e.g. ten‑year EPS history) are missing from the PDF, dedicated scrapers (`scraping_criterion_*`) search trusted financial websites to fetch the required data.
+8. **Graham criteria calculation** – The `graham_calculator.py` and `_graham_cal_2.py` modules evaluate each of the seven criteria and compute an overall pass/fail score.
+9. **Results presentation** – The frontend renders a gauge showing the number of criteria met and displays pass/fail badges for each criterion.  Users can also open a standalone manual calculator to input their own numbers.
+
+This layered approach ensures resilient extraction: if the PDF does not contain a piece of information, the system either infers it via LLMs or retrieves it from the web, providing a comprehensive and reliable investment analysis.
+
+
 ## Project File Structure
 
 Below is a high‑level view of the key files and directories captured in the original project folder (extracted from a screenshot).  
 The table lists each item and its type so you can quickly locate the corresponding module or asset.  Long explanations are provided in the subsequent sections.
 
-## Project Structure
 
 | File/Folder                         | Type            | Description/Size                           |
 |-------------------------------------|-----------------|--------------------------------------------|
@@ -115,28 +137,6 @@ The table lists each item and its type so you can quickly locate the correspondi
 | `temp/`                             | Folder          | Analysis & intermediate storage            |
 
 
-
- 
-## Architecture and Data Flow
-
-The Graham Analyzer follows a multi‑stage processing pipeline to extract financial information and evaluate investment criteria.  
-![Layer 1](backend_api_layer.jpg)
-![Layer 2](analysis_engine_layer.jpg)
-![Layer 3](data_processing_layer.jpg)
-
-At a high level the workflow is:
-
-1. **PDF upload & company detection** – The FastAPI backend accepts an annual report PDF and detects the company name and reporting year.
-2. **Text extraction** – The `text_extraction.py` module uses `pdfplumber` to extract text and tables from the PDF.
-3. **LLM extraction** – An optional LLM‑powered module (`llm_extractor.py`) analyzes the extracted text to identify balance sheets, income statements and cash‑flow sections and to pick out key financial numbers.
-4. **Rule‑based extraction** – When LLMs are unavailable or to cross‑check results, `rule_based_extractor.py` uses regular expressions and heuristics to pull figures like revenue, current assets/liabilities and EPS.
-5. **Advanced table extraction** – Complex tables are parsed using `advanced_table_extractor.py` which leverages Camelot/Tabula when installed.
-6. **Data integration** – The `data_integrator.py` module merges outputs from the LLM, rule‑based and advanced extractors, resolves conflicts and validates currency and scale.
-7. **Web scraping fallback** – If certain metrics (e.g. ten‑year EPS history) are missing from the PDF, dedicated scrapers (`scraping_criterion_*`) search trusted financial websites to fetch the required data.
-8. **Graham criteria calculation** – The `graham_calculator.py` and `_graham_cal_2.py` modules evaluate each of the seven criteria and compute an overall pass/fail score.
-9. **Results presentation** – The frontend renders a gauge showing the number of criteria met and displays pass/fail badges for each criterion.  Users can also open a standalone manual calculator to input their own numbers.
-
-This layered approach ensures resilient extraction: if the PDF does not contain a piece of information, the system either infers it via LLMs or retrieves it from the web, providing a comprehensive and reliable investment analysis.
 
 ## Installation
 
