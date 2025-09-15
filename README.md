@@ -13,20 +13,14 @@ The application consists of:
 * **Interactive frontend** built with HTML, CSS and JavaScript that provides an upload form, a dynamic results dashboard and a standalone manual calculator.
 * **Manual calculator** page where users can enter financial values themselves and instantly see which criteria pass or fail.
 
+## Technology Stack
+
+![Complete technology stack](tech_stack.jpg)
+
 This repository brings together the backend Python modules, frontend assets and documentation necessary to run the application locally and understand its architecture.
 
-## Repository Contents
 
-Alongside the Python modules there are additional artifacts in this repository:
-
-* `first-page-after-name.jpg` – screenshot of the main upload page of the application.
-* `graham-calculator-manual.jpg` – screenshot of the manual calculator page.
-* `file-structure.png` – captured file/directory listing used to reconstruct this repository structure.
-* `Presentation.html` – HTML document explaining the system architecture with flowcharts and component descriptions.
-* `Project details.docx` – Rich document summarising each file and function used in the project.
-* `requirements.txt` – pinned Python dependencies for this project.
-
-## Example Interface Previews
+## Interface Previews
 
 Below are example views of the web application to give you a feel for the user experience.  Each image illustrates a different stage of the workflow.
 
