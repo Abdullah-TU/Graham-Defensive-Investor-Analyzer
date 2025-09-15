@@ -181,9 +181,6 @@ This repository contains a faithfully reconstructed subset of the original Graha
 3. Make your changes and commit them with descriptive messages.  Avoid combining unrelated changes into a single commit.
 4. Open a pull request describing what you changed and why.  Include screenshots or logs if appropriate.
 
-## License
-
-This project is provided for educational purposes and does not include a formal license from the original author.  Use it at your own discretion and verify any investment advice independently.
 
 ## Graham Criteria Explained
 
@@ -198,5 +195,9 @@ For convenience, here is a quick reminder of the seven defensive investor criter
 7. **Moderate Price/Book Ratio (Criterion 7)** – The current stock price should not exceed 1.5 × book value per share, and the product of P/E and P/B should not exceed 22.5.
 
 The analyzer automatically computes these ratios and displays a green “Pass” or red “Fail” badge for each.
+
+## License
+
+This project is provided for educational purposes and does not include a formal license from the original author.  Use it at your own discretion and verify any investment advice independently.
 
 
