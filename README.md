@@ -15,6 +15,58 @@ The application consists of:
 
 This repository brings together the backend Python modules, frontend assets and documentation necessary to run the application locally and understand its architecture.
 
+## Repository Contents
+
+Alongside the Python modules there are additional artifacts in this repository:
+
+* `first-page-after-name.jpg` – screenshot of the main upload page of the application.
+* `graham-calculator-manual.jpg` – screenshot of the manual calculator page.
+* `file-structure.png` – captured file/directory listing used to reconstruct this repository structure.
+* `Presentation.html` – HTML document explaining the system architecture with flowcharts and component descriptions.
+* `Project details.docx` – Rich document summarising each file and function used in the project.
+* `requirements.txt` – pinned Python dependencies for this project.
+
+## Example Interface Previews
+
+Below are example views of the web application to give you a feel for the user experience.  Each image illustrates a different stage of the workflow.
+
+### Landing Page
+
+![Landing page with file‑upload widget and analyze button](landing_page.jpg)
+
+The landing page greets the user with a simple upload area and a large **Analyze PDF** button.  From here you can either upload an annual report or open the manual calculator.
+
+### File Upload & Processing
+
+![File selected and analysis in progress](second_page.jpg)
+
+After selecting a PDF, the interface shows the file name and a progress indicator while the system extracts text and detects the company information.
+
+### Partial Analysis Results
+
+![Analysis results showing a mix of Pass, Fail and Unknown with a 5/7 score](result_1.jpg)
+
+Once processing completes, the dashboard displays each criterion’s status.  In this example only five of the seven criteria could be evaluated, resulting in a cautionary score.
+
+### Full Analysis Results
+
+![Analysis results where all seven criteria are passed and a gauge reads 7/7](result_2.jpg)
+
+A perfect score occurs when the uploaded report meets all of Graham’s defensive investor criteria.  The gauge turns fully green and the recommendation notes that the company is likely a sustainable investment.
+
+### Manual Calculator Input
+
+![Manual calculator for entering revenue, current ratio, EPS and other figures](graham-calculator-manual.jpg)
+
+The manual calculator allows users to input financial figures manually (annual sales, current ratio, long‑term debt, EPS history and growth, dividend history, price ratios).  It performs real‑time calculations and indicates pass/fail for each of the seven criteria.
+
+### Manual Calculator Results (Examples)
+
+![Manual calculator result showing partial passes and fails](manual_calculator_result_1.jpg)
+
+![Manual calculator result showing all criteria passed](manual_calculator_result_2.jpg)
+
+These screenshots demonstrate how the manual calculator presents results—either a mix of pass/fail statuses or a full set of passes depending on the inputs provided.
 ## Project File Structure
 
 Below is a high‑level view of the key files and directories captured in the original project folder (extracted from a screenshot).  
@@ -111,21 +163,6 @@ Alongside the Python modules there are additional artifacts in this repository:
 * `Project details.docx` – Rich document summarising each file and function used in the project.
 * `requirements.txt` – pinned Python dependencies for this project.
 
-## Screenshots
-
-Below are screenshots of the web interface included in this repository to give you a feel for the user experience:
-
-### Main Upload Page
-
-![Main upload interface showing PDF selector and analysis button](first-page-after-name.jpg)
-
-This page greets the user when they navigate to the application.  It features a file‑selection widget for uploading an annual report and a prominent **Analyze PDF** button.  Beneath the upload area is a link to open the manual calculator.
-
-### Manual Calculator Page
-
-![Manual calculator for entering revenue, current ratio, EPS and other figures](graham-calculator-manual.jpg)
-
-The manual calculator allows users to input financial figures manually (annual sales, current ratio, long‑term debt, EPS history and growth, dividend history, price ratios).  The page performs real‑time calculations and indicates pass/fail for each of the seven criteria.
 
 ## Contributing
 
