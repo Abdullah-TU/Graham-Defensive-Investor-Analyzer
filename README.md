@@ -1,5 +1,5 @@
-![Overview](first-overview.jpg) 
 # Graham Defensive Investor Analyzer
+![Overview](first-overview.jpg) 
 
 ## Overview
 
