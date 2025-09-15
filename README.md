@@ -1,4 +1,4 @@
-![Overview](overview.jpg) 
+![Overview](first-overview.jpg) 
 # Graham Defensive Investor Analyzer
 
 ## Overview
