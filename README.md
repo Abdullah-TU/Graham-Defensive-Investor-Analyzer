@@ -38,7 +38,7 @@ The landing page greets the user with a simple upload area and a large **Analyze
 
 ### File Upload & Processing
 
-![File selected and analysis in progress](second_page.jpg)
+![File selected and analysis in progress](second page.jpg)
 
 After selecting a PDF, the interface shows the file name and a progress indicator while the system extracts text and detects the company information.
 
@@ -50,21 +50,21 @@ Once processing completes, the dashboard displays each criterion’s status.  In
 
 ### Full Analysis Results
 
-![Analysis results where all seven criteria are passed and a gauge reads 7/7](result_2.jpg)
+![Analysis results where all seven criteria are passed and a gauge reads 7/7](result 2.jpg)
 
 A perfect score occurs when the uploaded report meets all of Graham’s defensive investor criteria.  The gauge turns fully green and the recommendation notes that the company is likely a sustainable investment.
 
 ### Manual Calculator Input
 
-![Manual calculator for entering revenue, current ratio, EPS and other figures](graham-calculator-manual.jpg)
+![Manual calculator for entering revenue, current ratio, EPS and other figures](graham calcualtor manual.jpg)
 
 The manual calculator allows users to input financial figures manually (annual sales, current ratio, long‑term debt, EPS history and growth, dividend history, price ratios).  It performs real‑time calculations and indicates pass/fail for each of the seven criteria.
 
 ### Manual Calculator Results (Examples)
 
-![Manual calculator result showing partial passes and fails](manual_calculator_result_1.jpg)
+![Manual calculator result showing partial passes and fails](Manual_calcualtor_result_1.jpg)
 
-![Manual calculator result showing all criteria passed](manual_calculator_result_2.jpg)
+![Manual calculator result showing all criteria passed](Manual_calcualtor_result_2.jpg)
 
 These screenshots demonstrate how the manual calculator presents results—either a mix of pass/fail statuses or a full set of passes depending on the inputs provided.
 ## Project File Structure
