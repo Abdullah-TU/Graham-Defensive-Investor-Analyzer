@@ -117,75 +117,40 @@ The table lists each item and its type so you can quickly locate the correspondi
 | `uploads/` | Uploads directory |
 | `temp/` | Temporary storage |
 
-        <div class="file-structure">
-            <div class="file-structure-title">📁 Complete File Structure</div>
-            <div class="file-tree">
-                <div class="folder">graham-analyzer/</div>
-                <div class="indent">
-                    <div class="file">├── app.py</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Main FastAPI application with web scraping integration (34 KB)</div>
-                    <div class="file">├── index.html</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Main web interface with gauge visualization (5 KB)</div>
-                    <div class="file">├── style.css</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Main stylesheet with modern gradient design (18 KB)</div>
-                    <div class="file">├── script.js</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Frontend JavaScript with canvas gauge implementation (55 KB)</div>
-                    <div class="file">├── graham-criteria-calculator.html</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Manual calculator interface (17 KB)</div>
-                    <div class="file">├── graham-calculator-styles.css</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Calculator stylesheet (14 KB)</div>
-                    <div class="file">├── graham-calculator-logic.js</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Calculator JavaScript logic (27 KB)</div>
-                    <div class="file">├── requirements.txt</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Python dependencies with web scraping libraries (3 KB)</div>
-                    <div class="file">├── text_extraction.py</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Advanced PDF text extraction engine (11 KB)</div>
-                    <div class="file">├── llm_extractor.py</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">LLM-powered financial data extraction (25 KB)</div>
-                    <div class="file">├── rule_based_extractor.py</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Enhanced rule-based extraction with multilingual support (18 KB)</div>
-                    <div class="file">├── data_integrator.py</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Intelligent data integration & conflict resolution (9 KB)</div>
-                    <div class="file">├── graham_calculator.py</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Enhanced Graham criteria calculator with web scraping (72 KB)</div>
-                    <div class="file">├── company_year_detector.py</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Company & year detection with frequency analysis (11 KB)</div>
-                    <div class="file">├── processing_pipeline.py</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Complete processing pipeline orchestrator (23 KB)</div>
-                    <div class="file">├── advanced_table_extractor.py</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Advanced table extraction with Camelot & Tabula (50 KB)</div>
-                    <div class="file">├── excel_json_reader.py</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Excel/JSON financial data reader for fallback (41 KB)</div>
-                    <div class="file">├── _graham_cal_2.py</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Alternative Graham calculator implementation (90 KB)</div>
-                    <div class="file">├── scraping_criterion_1_NEW.py</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Web scraping for Criterion 1 (Sales Analysis) (32 KB)</div>
-                    <div class="file">├── scraping_criterion_2.py</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Web scraping for Criterion 2 (Current Ratio & Debt Analysis) (18 KB)</div>
-                    <div class="file">├── scraping_criterion_3_NEW.py</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Web scraping for Criterion 3 (EPS 10-year analysis) (27 KB)</div>
-                    <div class="file">├── scraping_criterion_4.py</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Web scraping for Criterion 4 (Dividend Analysis) (26 KB)</div>
-                    <div class="file">├── scraping_criterion_5.py</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Web scraping for Criterion 5 (EPS Growth Analysis) (15 KB)</div>
-                    <div class="file">├── scraping_criterion_6.py</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Web scraping for Criterion 6 (P/E Ratio Analysis) (21 KB)</div>
-                    <div class="file">├── scraping_criterion_7.py</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Web scraping for Criterion 7 (P/B Ratio Analysis) (10 KB)</div>
-                    <div class="file">├── utils.py</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Utility functions and logging helpers (2 KB)</div>
-                    <div class="folder">├── __pycache__/</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Python bytecode cache directory</div>
-                    <div class="folder">├── Logo/</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Project logo and branding assets</div>
+ ### 📁 Complete File Structure
 
-                    <div class="folder">├── temp/</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Analysis results, images & cleaned files storage</div>
-                    <div class="folder">└── uploads/</div>
-                    <div style="margin-left: 20px; color: #6c757d; font-size: 0.85em;">Temporary PDF storage directory</div>
-                </div>
-            </div>
-        </div>
+- **graham‑analyzer/**
+  - `app.py` – Main FastAPI application with web scraping integration (34 KB)
+  - `index.html` – Main web interface with gauge visualization (5 KB)
+  - `style.css` – Main stylesheet with modern gradient design (18 KB)
+  - `script.js` – Frontend JavaScript with canvas gauge implementation (55 KB)
+  - `graham-criteria-calculator.html` – Manual calculator interface (17 KB)
+  - `graham-calculator-styles.css` – Calculator stylesheet (14 KB)
+  - `graham-calculator-logic.js` – Calculator JavaScript logic (27 KB)
+  - `requirements.txt` – Python dependencies with web scraping libraries (3 KB)
+  - `text_extraction.py` – Advanced PDF text extraction engine (11 KB)
+  - `llm_extractor.py` – LLM‑powered financial data extraction (25 KB)
+  - `rule_based_extractor.py` – Enhanced rule‑based extraction with multilingual support (18 KB)
+  - `data_integrator.py` – Intelligent data integration & conflict resolution (9 KB)
+  - `graham_calculator.py` – Enhanced Graham criteria calculator with web scraping (72 KB)
+  - `company_year_detector.py` – Company & year detection with frequency analysis (11 KB)
+  - `processing_pipeline.py` – Complete processing pipeline orchestrator (23 KB)
+  - `advanced_table_extractor.py` – Advanced table extraction with Camelot & Tabula (50 KB)
+  - `excel_json_reader.py` – Excel/JSON financial data reader for fallback (41 KB)
+  - `_graham_cal_2.py` – Alternative Graham calculator implementation (90 KB)
+  - `scraping_criterion_1_NEW.py` – Web scraping for Criterion 1 (Sales Analysis) (32 KB)
+  - `scraping_criterion_2.py` – Web scraping for Criterion 2 (Current Ratio & Debt Analysis) (18 KB)
+  - `scraping_criterion_3_NEW.py` – Web scraping for Criterion 3 (EPS 10‑year analysis) (27 KB)
+  - `scraping_criterion_4.py` – Web scraping for Criterion 4 (Dividend Analysis) (26 KB)
+  - `scraping_criterion_5.py` – Web scraping for Criterion 5 (EPS Growth Analysis) (15 KB)
+  - `scraping_criterion_6.py` – Web scraping for Criterion 6 (P/E Ratio Analysis) (21 KB)
+  - `scraping_criterion_7.py` – Web scraping for Criterion 7 (P/B Ratio Analysis) (10 KB)
+  - `utils.py` – Utility functions and logging helpers (2 KB)
+  - **__pycache__/** – Python bytecode cache directory
+  - **Logo/** – Project logo and branding assets
+  - **temp/** – Analysis results, images & cleaned files storage
+  - **uploads/** – Temporary PDF storage directory
+
 ## Architecture and Data Flow
 
 The Graham Analyzer follows a multi‑stage processing pipeline to extract financial information and evaluate investment criteria.  
