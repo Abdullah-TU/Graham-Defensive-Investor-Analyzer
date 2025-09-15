@@ -32,7 +32,7 @@ The landing page greets the user with a simple upload area and a large **Analyze
 
 ### File Upload & Processing
 
-![File selected and analysis in progress](second page.jpg)
+![File selected and analysis in progress](second_page.jpg)
 
 After selecting a PDF, the interface shows the file name and a progress indicator while the system extracts text and detects the company information.
 
