@@ -164,18 +164,6 @@ python app.py
 
 By default the backend listens on [http://localhost:8000](http://localhost:8000).  Navigate to that URL in your browser to open the web interface.  You can then upload a PDF and receive a pass/fail summary, or click the **Manual Calculator** button to enter values yourself.
 
-## Repository Contents
-
-Alongside the Python modules there are additional artifacts in this repository:
-
-* `first-page-after-name.jpg` – screenshot of the main upload page of the application.
-* `graham-calculator-manual.jpg` – screenshot of the manual calculator page.
-* `file-structure.png` – captured file/directory listing used to reconstruct this repository structure.
-* `Presentation.html` – HTML document explaining the system architecture with flowcharts and component descriptions.
-* `Project details.docx` – Rich document summarising each file and function used in the project.
-* `requirements.txt` – pinned Python dependencies for this project.
-
-
 ## Contributing
 
 This repository contains a faithfully reconstructed subset of the original Graham Analyzer project.  If you wish to extend or modify it, please follow these guidelines:
