@@ -1,5 +1,24 @@
-# Graham Defensive Investor Analyzer
-![Overview](first-overview.jpg) 
+<!-- Logo (centered) -->
+<p align="center">
+  <img src="logo_final.jpg" alt="Graham Defensive Investor Analyzer" width="120">
+</p>
+
+<!-- Title (centered) -->
+<h1 align="center">Graham Defensive Investor Analyzer</h1>
+
+<!-- Optional tagline (centered) -->
+<p align="center">
+  <em>Screen, score, and sanity-check stocks using Graham’s Defensive Investor rules.</em>
+</p>
+
+<!-- Overview image (centered with controlled size) -->
+<p align="center">
+  <img src="first-overview.jpg" alt="Overview" width="900">
+</p>
+
+## Overview
+<!-- Your overview text goes here -->
+
 
 ## Overview
 
