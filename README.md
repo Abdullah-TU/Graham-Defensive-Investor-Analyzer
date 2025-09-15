@@ -50,13 +50,13 @@ Once processing completes, the dashboard displays each criterion’s status.  In
 
 ### Full Analysis Results
 
-![Analysis results where all seven criteria are passed and a gauge reads 7/7](result 2.jpg)
+![Analysis results where all seven criteria are passed and a gauge reads 7/7](result_2.jpg)
 
 A perfect score occurs when the uploaded report meets all of Graham’s defensive investor criteria.  The gauge turns fully green and the recommendation notes that the company is likely a sustainable investment.
 
 ### Extracted Financial Page
 
-![Extracted financial statement page from Elisa 2023 annual report](extracted_page_ elisa_2023.jpg)
+![Extracted financial statement page from Elisa 2023 annual report](extracted_page_elisa_2023.jpg)
 
 When the analyzer identifies useful tables in the PDF it also exposes the raw pages for review.  This example shows the key indicators table from the Elisa 2023 financial statement, including revenue, EBITDA, balance sheet metrics and formulas used to derive ratios.
 
