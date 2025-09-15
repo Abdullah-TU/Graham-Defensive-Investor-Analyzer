@@ -120,6 +120,10 @@ The table lists each item and its type so you can quickly locate the correspondi
 ## Architecture and Data Flow
 
 The Graham Analyzer follows a multi‑stage processing pipeline to extract financial information and evaluate investment criteria.  
+![Layer 1](backend_api_layer.jpg)
+![Layer 2](analysis_engine_layer.jpg)
+![Layer 3](data_processing_layer.jpg)
+
 At a high level the workflow is:
 
 1. **PDF upload & company detection** – The FastAPI backend accepts an annual report PDF and detects the company name and reporting year.
