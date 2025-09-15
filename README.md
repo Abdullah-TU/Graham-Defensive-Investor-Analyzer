@@ -1,6 +1,6 @@
 <!-- Logo (centered) -->
 <p align="center">
-  <img src="logo_final.jpg" alt="Graham Defensive Investor Analyzer" width="120">
+  <img src="logo_final.png" alt="Graham Defensive Investor Analyzer" width="120">
 </p>
 
 <!-- Title (centered) -->
