@@ -80,77 +80,49 @@ These screenshots demonstrate how the manual calculator presents results—eithe
 Below is a high‑level view of the key files and directories captured in the original project folder (extracted from a screenshot).  
 The table lists each item and its type so you can quickly locate the corresponding module or asset.  Long explanations are provided in the subsequent sections.
 
-| File/Folder | Type |
-| --- | --- |
-| `_graham_cal_2.py` | Python module |
-| `scraping_criterion_7.py` | Python module |
-| `script.js` | JavaScript file |
-| `style.css` | CSS file |
-| `text_extraction.py` | Python module |
-| `utils.py` | Python module |
-| `advanced_table_extractor.py` | Python module |
-| `app.py` | Python module (FastAPI server) |
-| `company_year_detector.py` | Python module |
-| `data_integrator.py` | Python module |
-| `excel_json_reader.py` | Python module |
-| `graham_calculator.py` | Python module |
-| `graham_criteria.json` | JSON configuration |
-| `graham-calculator-logic.js` | JavaScript file |
-| `graham-calculator-styles.css` | CSS file |
-| `graham-criteria-calculator.html` | HTML page |
-| `index.html` | HTML page |
-| `llm_extractor.py` | Python module |
-| `logo_final.png` | Image asset |
-| `processing_pipeline.py` | Python module |
-| `requirements.txt` | Dependency list |
-| `rule_based_extractor.py` | Python module |
-| `scraping_criterion_1_NEW.py` | Python module |
-| `scraping_criterion_2.py` | Python module |
-| `scraping_criterion_3_NEW.py` | Python module |
-| `scraping_criterion_4.py` | Python module |
-| `scraping_criterion_5.py` | Python module |
-| `scraping_criterion_6.py` | Python module |
-| `Presentation and documentation/` | Folder containing docs |
-| `Data_pdf/` | Folder containing sample PDFs |
-| `Logo/` | Folder with branding assets |
-| `__pycache__/` | Python cache folder |
-| `uploads/` | Uploads directory |
-| `temp/` | Temporary storage |
+## Project Structure
 
- ### 📁 Complete File Structure
+| File/Folder                         | Type            | Description/Size                           |
+|-------------------------------------|-----------------|--------------------------------------------|
+| `_graham_cal_2.py`                  | Python module   | Alt. Graham calculator (90 KB)             |
+| `scraping_criterion_7.py`           | Python module   | P/B ratio scraping (10 KB)                 |
+| `script.js`                         | JavaScript file | Frontend gauge logic (55 KB)               |
+| `style.css`                         | CSS file        | Main stylesheet (18 KB)                    |
+| `text_extraction.py`                | Python module   | PDF text extraction engine (11 KB)         |
+| `utils.py`                          | Python module   | Utility helpers (2 KB)                     |
+| `advanced_table_extractor.py`       | Python module   | Table extraction with Camelot/Tabula (50 KB)|
+| `app.py`                            | Python module   | FastAPI server (34 KB)                     |
+| `company_year_detector.py`          | Python module   | Company & year detection (11 KB)           |
+| `data_integrator.py`                | Python module   | Data integration & conflict resolution (9 KB)|
+| `excel_json_reader.py`              | Python module   | Excel/JSON reader (41 KB)                  |
+| `graham_calculator.py`              | Python module   | Graham criteria calculator (72 KB)         |
+| `graham_criteria.json`              | JSON file       | Criteria configuration                     |
+| `graham-calculator-logic.js`        | JavaScript file | Manual calculator logic (27 KB)            |
+| `graham-calculator-styles.css`      | CSS file        | Manual calculator styles (14 KB)           |
+| `graham-criteria-calculator.html`   | HTML page       | Manual calculator UI (17 KB)               |
+| `index.html`                        | HTML page       | Main interface (5 KB)                      |
+| `llm_extractor.py`                  | Python module   | LLM‑powered data extraction (25 KB)        |
+| `logo_final.png`                    | Image asset     | Application logo (262 KB)                  |
+| `processing_pipeline.py`            | Python module   | Processing pipeline orchestrator (23 KB)   |
+| `requirements.txt`                  | Text document   | Dependency list (3 KB)                     |
+| `rule_based_extractor.py`           | Python module   | Multilingual rule‑based extractor (18 KB)  |
+| `scraping_criterion_1_NEW.py`       | Python module   | Web scraping for Criterion 1 (32 KB)       |
+| `scraping_criterion_2.py`           | Python module   | Web scraping for Criterion 2 (18 KB)       |
+| `scraping_criterion_3_NEW.py`       | Python module   | Web scraping for Criterion 3 (27 KB)       |
+| `scraping_criterion_4.py`           | Python module   | Web scraping for Criterion 4 (26 KB)       |
+| `scraping_criterion_5.py`           | Python module   | Web scraping for Criterion 5 (15 KB)       |
+| `scraping_criterion_6.py`           | Python module   | Web scraping for Criterion 6 (21 KB)       |
+| `scraping_criterion_7.py`           | Python module   | Web scraping for Criterion 7 (10 KB)       |
+| `Presentation and documentation/`   | Folder          | Project documentation                      |
+| `Data_pdf/`                         | Folder          | Sample PDFs                               |
+| `Logo/`                             | Folder          | Branding assets                            |
+| `__pycache__/`                      | Folder          | Python bytecode cache                      |
+| `uploads/`                          | Folder          | Temporary PDF uploads                      |
+| `temp/`                             | Folder          | Analysis & intermediate storage            |
 
-- **graham‑analyzer/**
-  - `app.py` – Main FastAPI application with web scraping integration (34 KB)
-  - `index.html` – Main web interface with gauge visualization (5 KB)
-  - `style.css` – Main stylesheet with modern gradient design (18 KB)
-  - `script.js` – Frontend JavaScript with canvas gauge implementation (55 KB)
-  - `graham-criteria-calculator.html` – Manual calculator interface (17 KB)
-  - `graham-calculator-styles.css` – Calculator stylesheet (14 KB)
-  - `graham-calculator-logic.js` – Calculator JavaScript logic (27 KB)
-  - `requirements.txt` – Python dependencies with web scraping libraries (3 KB)
-  - `text_extraction.py` – Advanced PDF text extraction engine (11 KB)
-  - `llm_extractor.py` – LLM‑powered financial data extraction (25 KB)
-  - `rule_based_extractor.py` – Enhanced rule‑based extraction with multilingual support (18 KB)
-  - `data_integrator.py` – Intelligent data integration & conflict resolution (9 KB)
-  - `graham_calculator.py` – Enhanced Graham criteria calculator with web scraping (72 KB)
-  - `company_year_detector.py` – Company & year detection with frequency analysis (11 KB)
-  - `processing_pipeline.py` – Complete processing pipeline orchestrator (23 KB)
-  - `advanced_table_extractor.py` – Advanced table extraction with Camelot & Tabula (50 KB)
-  - `excel_json_reader.py` – Excel/JSON financial data reader for fallback (41 KB)
-  - `_graham_cal_2.py` – Alternative Graham calculator implementation (90 KB)
-  - `scraping_criterion_1_NEW.py` – Web scraping for Criterion 1 (Sales Analysis) (32 KB)
-  - `scraping_criterion_2.py` – Web scraping for Criterion 2 (Current Ratio & Debt Analysis) (18 KB)
-  - `scraping_criterion_3_NEW.py` – Web scraping for Criterion 3 (EPS 10‑year analysis) (27 KB)
-  - `scraping_criterion_4.py` – Web scraping for Criterion 4 (Dividend Analysis) (26 KB)
-  - `scraping_criterion_5.py` – Web scraping for Criterion 5 (EPS Growth Analysis) (15 KB)
-  - `scraping_criterion_6.py` – Web scraping for Criterion 6 (P/E Ratio Analysis) (21 KB)
-  - `scraping_criterion_7.py` – Web scraping for Criterion 7 (P/B Ratio Analysis) (10 KB)
-  - `utils.py` – Utility functions and logging helpers (2 KB)
-  - **__pycache__/** – Python bytecode cache directory
-  - **Logo/** – Project logo and branding assets
-  - **temp/** – Analysis results, images & cleaned files storage
-  - **uploads/** – Temporary PDF storage directory
 
+
+ 
 ## Architecture and Data Flow
 
 The Graham Analyzer follows a multi‑stage processing pipeline to extract financial information and evaluate investment criteria.  
