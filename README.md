@@ -71,7 +71,6 @@ When the analyzer identifies useful tables in the PDF it also exposes the raw pa
 
 
 ### Manual Calculator Input
-
 ![Manual calculator for entering revenue, current ratio, EPS and other figures](graham calcualtor manual.jpg)
 
 The manual calculator allows users to input financial figures manually (annual sales, current ratio, long‑term debt, EPS history and growth, dividend history, price ratios).  It performs real‑time calculations and indicates pass/fail for each of the seven criteria.
