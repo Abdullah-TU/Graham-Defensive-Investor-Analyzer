@@ -23,7 +23,6 @@
 At its core the system ingests PDF financial reports, extracts key metrics using a combination of large‑language‑model (LLM) extraction and rule‑based parsing, optionally scrapes missing data from the web, and then evaluates the seven Graham criteria (e.g. revenue size, current ratio, earnings stability, dividend record, earnings growth, price‑to‑earnings ratio and price‑to‑book ratio).  
 
 The application consists of:
-
 * **FastAPI backend** for handling PDF uploads, orchestrating extraction pipelines and serving results.
 * **LLM and rule‑based extractors** to parse financial statements, detect company names/years and harvest data from tables.
 * **Web scraping modules** to retrieve missing financial data when PDFs lack certain figures.
