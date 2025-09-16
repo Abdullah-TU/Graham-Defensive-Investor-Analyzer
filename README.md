@@ -41,13 +41,11 @@ This repository brings together the backend Python modules, frontend assets and 
 Below are example views of the web application to give you a feel for the user experience.  Each image illustrates a different stage of the workflow.
 
 ### Landing Page
-
 ![Landing page with file‑upload widget and analyze button](landing_page.jpg)
 
 The landing page greets the user with a simple upload area and a large **Analyze PDF** button.  From here you can either upload an annual report or open the manual calculator.
 
 ### File Upload & Processing
-
 ![File selected and analysis in progress](second_page.jpg)
 
 After selecting a PDF, the interface shows the file name and a progress indicator while the system extracts text and detects the company information.
