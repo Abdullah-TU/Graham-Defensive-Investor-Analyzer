@@ -16,7 +16,6 @@
   <img src="first-overview.jpg" alt="Overview" width="900">
 </p>
 
-
 ## Overview
 
 **Graham Defensive Investor Analyzer** is a full‑stack web application that allows you to upload a company’s annual report and receive a concise investment recommendation based on Benjamin Graham’s defensive investor criteria.  
@@ -30,7 +29,6 @@ The application consists of:
 * **Manual calculator** page where users can enter financial values themselves and instantly see which criteria pass or fail.
 
 ## Technology Stack
-
 ![Complete technology stack](tech_stack.jpg)
 
 This repository brings together the backend Python modules, frontend assets and documentation necessary to run the application locally and understand its architecture.
