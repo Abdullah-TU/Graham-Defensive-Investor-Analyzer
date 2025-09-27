@@ -63,7 +63,6 @@ A perfect score occurs when the uploaded report meets all of Graham’s defensiv
 
 ![Extracted financial statement page from Elisa 2023 annual report](extracted_page_elisa_2023.png) 
 
-
 When the analyzer identifies useful tables in the PDF it also exposes the raw pages for review.  This example shows the key indicators table from the Elisa 2023 financial statement, including revenue, EBITDA, balance sheet metrics and formulas used to derive ratios.
 
 
