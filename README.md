@@ -100,7 +100,6 @@ At a high level the workflow is:
 
 This layered approach ensures resilient extraction: if the PDF does not contain a piece of information, the system either infers it via LLMs or retrieves it from the web, providing a comprehensive and reliable investment analysis.
 
-
 ## Project File Structure
 
 Below is a high‑level view of the key files and directories captured in the original project folder (extracted from a screenshot).  
