@@ -33,7 +33,6 @@ The application consists of:
 
 This repository brings together the backend Python modules, frontend assets and documentation necessary to run the application locally and understand its architecture.
 
-
 ## Interface Previews
 
 Below are example views of the web application to give you a feel for the user experience.  Each image illustrates a different stage of the workflow.
