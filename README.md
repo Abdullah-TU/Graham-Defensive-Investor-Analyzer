@@ -144,7 +144,6 @@ The table lists each item and its type so you can quickly locate the correspondi
 | `temp/`                             | Folder          | Analysis & intermediate storage            |
 
 
-
 ## Installation
 
 To run the application locally you need Python 3.10+ and `pip`.  Install the required packages using the provided `requirements.txt`.  Optional dependencies such as Camelot, Tabula, Transformers and Torch enable advanced table extraction and LLM features.  If these libraries are not installed the corresponding modules gracefully fall back to simpler logic.
