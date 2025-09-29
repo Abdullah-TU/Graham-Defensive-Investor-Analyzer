@@ -179,7 +179,6 @@ This repository contains a faithfully reconstructed subset of the original Graha
 3. Make your changes and commit them with descriptive messages.  Avoid combining unrelated changes into a single commit.
 4. Open a pull request describing what you changed and why.  Include screenshots or logs if appropriate.
 
-
 ## Graham Criteria Explained
 
 For convenience, here is a quick reminder of the seven defensive investor criteria defined by Benjamin Graham and implemented in this project:
