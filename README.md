@@ -105,7 +105,6 @@ This layered approach ensures resilient extraction: if the PDF does not contain 
 Below is a high‑level view of the key files and directories captured in the original project folder (extracted from a screenshot).  
 The table lists each item and its type so you can quickly locate the corresponding module or asset.  Long explanations are provided in the subsequent sections.
 
-
 | File/Folder                         | Type            | Description/Size                           |
 |-------------------------------------|-----------------|--------------------------------------------|
 | `_graham_cal_2.py`                  | Python module   | Alt. Graham calculator (90 KB)             |
