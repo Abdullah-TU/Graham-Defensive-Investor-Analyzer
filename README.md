@@ -29,6 +29,7 @@ The application consists of:
 * **Manual calculator** page where users can enter financial values themselves and instantly see which criteria pass or fail.
 
 ## Technology Stack
+
 ![Complete technology stack](tech_stack.jpg)
 
 This repository brings together the backend Python modules, frontend assets and documentation necessary to run the application locally and understand its architecture.
