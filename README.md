@@ -2,7 +2,7 @@
 <p align="center">
   <img src="logo_final.png" alt="Graham Defensive Investor Analyzer" width="120">
 </p>
-
+The analyzer is live here: https://graham.fi/
 <!-- Title (centered) -->
 <h1 align="center">Graham Defensive Investor Analyzer</h1>
 
