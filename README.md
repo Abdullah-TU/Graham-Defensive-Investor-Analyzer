@@ -98,7 +98,7 @@ At a high level the workflow is:
 7. **Web scraping fallback** – If certain metrics (e.g. ten‑year EPS history) are missing from the PDF, dedicated scrapers (`scraping_criterion_*`) search trusted financial websites to fetch the required data.
 8. **Graham criteria calculation** – The `graham_calculator.py` and `_graham_cal_2.py` modules evaluate each of the seven criteria and compute an overall pass/fail score.
 9. **Results presentation** – The frontend renders a gauge showing the number of criteria met and displays pass/fail badges for each criterion.  Users can also open a standalone manual calculator to input their own numbers.
-
+10. 
 This layered approach ensures resilient extraction: if the PDF does not contain a piece of information, the system either infers it via LLMs or retrieves it from the web, providing a comprehensive and reliable investment analysis.
 
 ## Project File Structure
