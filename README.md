@@ -89,7 +89,6 @@ The Graham Analyzer follows a multi‑stage processing pipeline to extract finan
 ![Layer 3](data_processing_layer.jpg)
 
 At a high level the workflow is:
-
 1. **PDF upload & company detection** – The FastAPI backend accepts an annual report PDF and detects the company name and reporting year.
 2. **Text extraction** – The `text_extraction.py` module uses `pdfplumber` to extract text and tables from the PDF.
 3. **LLM extraction** – An optional LLM‑powered module (`llm_extractor.py`) analyzes the extracted text to identify balance sheets, income statements and cash‑flow sections and to pick out key financial numbers.
