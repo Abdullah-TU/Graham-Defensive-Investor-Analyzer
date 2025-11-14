@@ -195,7 +195,6 @@ For convenience, here is a quick reminder of the seven defensive investor criter
 The analyzer automatically computes these ratios and displays a green “Pass” or red “Fail” badge for each.
 
 ## License
-
 This project is provided for educational purposes and does not include a formal license from the original author.  Use it at your own discretion and verify any investment advice independently.
 
 ## Authors
